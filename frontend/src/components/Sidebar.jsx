@@ -29,7 +29,7 @@ const Sidebar = () => {
     setUserName(dummyProfileData.firstName + " " + dummyProfileData.lastName);
   }, []);
 
-  const role = "ADMIN"; // Replace with actual role from user context
+  const role = "EMPLOYEE"; // Replace with actual role from user context
   const navItems = [
     { name: "Dashboard", href: "/dashboard", icon: LayoutGridIcon },
     role === "ADMIN"
